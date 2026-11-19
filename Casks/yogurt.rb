@@ -4,11 +4,11 @@ cask "yogurt" do
 
   url "https://github.com/FrigadeHQ/yogurt/releases/latest/download/Yogurt-mac-arm64.dmg"
   name "Yogurt"
-  desc "Private meeting notes that run entirely on your Mac"
+  desc "Private, local meeting notes"
   homepage "https://yogurt.so/"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Yogurt.app"
 
