@@ -2,13 +2,11 @@ cask "yogurt" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/FrigadeHQ/yogurt/releases/latest/download/Yogurt-mac-arm64.dmg",
-      verified: "github.com/FrigadeHQ/yogurt/"
+  url "https://github.com/FrigadeHQ/yogurt/releases/latest/download/Yogurt-mac-arm64.dmg"
   name "Yogurt"
   desc "Private meeting notes that run entirely on your Mac"
   homepage "https://yogurt.so/"
 
-  auto_updates true
   depends_on arch: :arm64
   depends_on macos: ">= :sonoma"
 
